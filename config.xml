@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Desenvolvido por Jefferson Vidal - www.vidalcorp.com.br -->
+<cu3er>
+
+<settings>
+
+<auto_play>
+
+<defaults symbol="circular" time="3" />
+<tweenIn x="750" y="25" width="35" height="35" tint="0x000000" />
+</auto_play>
+<prev_button>
+
+<defaults round_corners="5,5,5,5"/>
+<tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+<tweenOut tint="0x000000" />
+</prev_button>
+<prev_symbol>
+
+<tweenOver tint="0x000000" />
+</prev_symbol>
+<next_button>
+
+<defaults round_corners="5,5,5,5"/>
+<tweenOver tint="0xFFFFFF"  scaleX="1.1" scaleY="1.1"/>
+<tweenOut tint="0x000000" />
+</next_button>
+<next_symbol>
+
+<tweenOver tint="0x000000" />
+</next_symbol>
+</settings>
+<slides>
+
+<!-- changing transition between first & second slide -->
+<transition num="5" direction="right" shader="flat"/>
+<slide>
+<url>banner/images/slide_1.jpg</url>
+<description>
+<link target="_blank">http://#</link>
+<heading>slide_1.jpg</heading>
+<paragraph>SLIDE 1</paragraph>
+</description>
+</slide>
+
+<!-- changing transition between first & second slide -->
+<transition num="5" direction="right" shader="flat"/>
+<slide>
+<url>banner/images/slide_2.jpg</url>
+<description>
+<link target="_blank">http://#</link>
+<heading>slide_2.jpg</heading>
+<paragraph>SLIDE 2</paragraph>
+</description>
+</slide>
+
+<!-- changing transition between first & second slide -->
+<transition num="5" direction="right" shader="flat"/>
+<slide>
+<url>banner/images/slide_3.jpg</url>
+<description>
+<link target="_blank">http://#</link>
+<heading>slide_3.jpg</heading>
+<paragraph>sghsgstghsgsghsgojakljglkjfdgkljslsghsgstghsgsghsgojakljglkjfdgkljslsghsgstghsgsghsgojakljglkjfdgkljslsghsgstghsgsghsgojakljglkjfdgkljsl</paragraph>
+</description>
+</slide>
+
+</slides></cu3er>
