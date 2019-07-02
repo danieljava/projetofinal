@@ -1,0 +1,23 @@
+/*Formulario de cadastro*/
+#cadastra{ margin:10px; height:200px; width:350px;}
+#cadastra .title{ color:#0099CC; font:16px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; background:#FFFFFF;}
+#cadastra form{width:350px; display:block; margin:0; margin-left:8px; border:0;}
+#cadastra fieldset{width:408px; display:block; margin:0; border:0;}
+#cadastra p{padding:3px 0;}
+#cadastra span{padding:3px; display:block; font:14px Verdana, Arial, Helvetica, sans-serif; color: #000000; font-weight:bold;}
+#cadastra input{width:250px; height:25px; border:1px solid #CCCCCC; font: 14px Verdana, Arial, Helvetica, sans-serif;}
+#cadastra textarea{ border:1px solid #CCCCCC; font:14px Verdana, Arial, Helvetica, sans-serif;}
+#cadastra .btn{ width:300px; border:1px solid #CCCCCC; margin:10px 10px 0 5px;}
+#cadastra .titulo{ font:14px Verdana, Arial, Helvetica, sans-serif; color:#0099CC;}
+
+/*Formatação das paginas de categoria*/
+
+#loop{ margin:7px auto;}
+#loop ul li img{float:left;}
+#loop ul{ list-style:none;}
+#loop ul li{ padding:4px; font:10px Verdana, Arial, Helvetica, sans-serif; float:left; width:408px;}
+#loop ul li p{ margin:2px; color: #9A9A9A;}
+#loop ul li:hover{ background: #E8E8E8;}
+#loop ul li a{ color: #0099CC; text-decoration:none; font:13px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:0;}
+#loop ul li a:hover{text-decoration:underline;}
+.erro{ font:13px Verdana, Arial, Helvetica, sans-serif; color: #999999; font-weight:bold;}

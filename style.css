@@ -1,0 +1,185 @@
+/*Formatação do corpo*/
+
+*{margin:0; padding:0;}
+
+body{ background:#E9E9E9;}
+
+/*Formatação das divs*/
+
+#box{width:950px; margin:0 auto; height:auto;}
+
+/*Header*/
+
+#header{height:110px;}
+#header_logo{ width:230px; height:80px; float:left;}
+#header_search{ height:40px; float:left; margin:30px; width:410px;}
+#header_search form{ width:400px; float:left;}
+#header_search input{width:290px; height:30px; border:1px solid #CCCCCC; font:14px Verdana, Arial, Helvetica, sans-serif;}
+#header_search .busca{ width:100px; height:30px; border:#CCCCCC 1px solid; background:#E9E9E9; margin:2px; float:right;}
+#header_links{ float:right; height:50px; margin:25px 55px 0 0; width:190px;}
+#header_links ul{ list-style:none; margin:10px; width:190px;}
+#header_links ul li{ display:inline; padding:0 2px; width:188px;}
+#header_links ul li a{ color:#000000; font: 14px Verdana, Arial, Helvetica, sans-serif; width:188px}
+
+/*Content*/
+
+#content{width:950px; height:auto;}
+#content_menu{width:250px; background: #666666; float:left; height:1100px;}
+#content_menu h2{ background:url(../img/categorias.jpg) repeat; height:50px; font:14px Verdana, Arial, Helvetica, sans-serif; text-align:center;}
+#content_menu h3{ background:url(../img/categorias.jpg) repeat-y; height: auto; font:15px Verdana, Arial, Helvetica, sans-serif; text-align:center; padding:10px; font-weight:bold;}
+#content_menu h2 a{ color:#000000; font-weight:bold; font:15px Verdana, Arial, Helvetica, sans-serif; text-shadow:#999999 1px 1px 1px; padding:5px 5px 5px 5px;}
+#content_centro{width:409px; background:#FFFFFF; float:left; height:1100px;}
+#cu3er-container {width:950px; outline:0; margin:0 0 5px 0;}
+#content_centro h1{ color:#FFFFFF; font: 14px Verdana, Arial, Helvetica, sans-serif; background:#666666; height:28px;}
+#content_sidebar{width:290px; float:right; height:1100px; background: #666666;}
+#mais_visitados h1{ color:#FFFFFF; background:#666666; height:28px; font:14px Verdana, Arial, Helvetica, sans-serif;}
+#mais_visitados ul{ list-style:none;}
+#mais_visitados ul li img{ float:left;}
+#mais_visitados ul li{ padding:4px; font:9px Verdana, Arial, Helvetica, sans-serif; float:left; width:290px;}
+#mais_visitados ul li:hover{ background: #D2D2D2;}
+#mais_visitados ul li p{ margin:2px; color:#9A9A9A;}
+#mais_visitados ul li a{ color:#0099CC; font:12px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; padding:0; margin:0;}
+#mais_visitados ul li a:hover{ text-decoration:underline;}
+#content_menu ul{ list-style:none; padding:0; float:left;}
+#content_menu ul li{ width:200px; border:0;}
+#content_menu ul li a{ width:200px; text-decoration:none; color:#FFFFFF; background:#666666; float:left; width:250px; margin:0 0 5px 0; font:14px Verdana, Arial, Helvetica, sans-serif; border-top:1px solid #FFFFFF; padding:4px;}
+#content_menu ul li a:hover{background: #585858;}
+#canais_sidebar{ background: #666666; height:100px; float:right; margin:20px 0; overflow: auto; width:280px;}
+#canais_sidebar ul{ list-style:none; margin:15px 0;}
+#canais_sidebar ul li{width:250px; margin:5px 2px;}
+#canais_sidebar ul li a{ color:#EEEEEE; text-decoration:none; padding:3px; font:14px Verdana, Arial, Helvetica, sans-serif;}
+#canais_sidebar ul li a:hover{ text-decoration:underline;}
+#canais_sidebar h4{color:#FFFFFF; background:#666666; font:14px Verdana, Arial, Helvetica, sans-serif; margin:3px 2px;}
+
+
+
+/*pagina single*/
+#video{ width:600px; float:left;}
+#video ul{ list-style:none;}
+#video ul li h1{ color:#FFFFFF; background: #666666; font:14px Verdana, Arial, Helvetica, sans-serif; height:25px;}
+#video li h2{ font:16px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; margin:10px 0;}
+#video li p{ font:12px Verdana, Arial, Helvetica, sans-serif; margin:5px 0; padding:3px 0 5px 0;}
+#video li p a{ color:#0099CC; text-decoration:none;}
+#video li p a:hover{ text-decoration:underline;}
+
+
+/*Mais recentes*/
+#sidebar_single{ width:330px; float:right; margin:10px; height:auto;}
+#sidebar_single h4{ font:14px Verdana, Arial, Helvetica, sans-serif; background: #666666; color:#FFFFFF; height:25px;}
+#sidebar_single ul li img{float:left;}
+#sidebar_single ul{ list-style:none; margin:8px auto;}
+#sidebar_single ul li{ padding:4px; font:9px Verdana, Arial, Helvetica, sans-serif; float:left; width:330px;}
+#sidebar_single ul li:hover{ background: #E2E2E2;}
+#sidebar_single ul li p{ margin:2px; color: #9A9A9A;}
+#sidebar_single ul li a{ color: #0099CC; text-decoration:none; font:13px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:0;}
+#sidebar_single ul li a:hover{text-decoration:underline;}
+
+
+/*Header Restrito*/
+
+#titulo_restrito{ height:40px; float:left; margin:30px; width:410px;}
+#titulo_restrito h1{ color:#0099CC; font:30px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; text-shadow: #CCCCCC 1px 1px 1px; text-align:center;}
+
+/*sidebar restrito*/
+
+.content_sidebar{ background:#666666; width:290px; float:right; height:1100px; background: #666666;}
+.mais_acessados h4{ color:#FFFFFF; font:14px Verdana, Arial, Helvetica, sans-serif; margin:0 0 5px 0;}
+.mais_acessados ul{ list-style:none;}
+.mais_acessados ul li{ padding:4px; font:9px Verdana, Arial, Helvetica, sans-serif; float:left; color:#9A9A9A; width:290px;}
+.mais_acessados ul li img{ float:left;}
+.mais_acessados ul li a{ color:#0099CC; font-weight:bold; text-decoration:none; margin:0 0 2px 0; font:14px Verdana, Arial, Helvetica, sans-serif;}
+.mais_acessados ul li a:hover{ text-decoration:underline;}
+.mais_acessados ul li p{ margin:0; padding:0}
+
+/*Canais sidebar restrito*/
+.canais_sidebar h4{ color:#FFFFFF; font:14px Verdana, Arial, Helvetica, sans-serif; margin:5px 0 10px 0;}
+
+/*mensagem de erro canal*/
+.canal_vazio{font:14px Verdana, Arial, Helvetica, sans-serif; color: #666666; font-weight:bold; padding:5px 0;}
+
+/*content centro restrito*/
+
+#content_centro h4{ color:#FFFFFF; background: #666666; height:25px; font:14px Verdana, Arial, Helvetica, sans-serif;}
+
+/*Formatação da página do canal*/
+
+#header_canal{height:40px; float:left; margin:30px; width:410px;}
+
+#header_canal h1{ font:25px Verdana, Arial, Helvetica, sans-serif; color:#0099CC; font-weight:bold; text-shadow:#CCCCCC 1px 1px 1px;}
+
+#loop_videos{ width:600px; height:auto;}
+#loop_videos h1{ background:#666666; font:14px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; margin:5px 0 10px 0;}
+#loop_videos ul{ list-style:none;}
+#loop_videos ul li{padding:5px 0 0 0; font:11px Verdana, Arial, Helvetica, sans-serif; width:595px; margin:5px auto; height:auto;}
+#loop_videos ul li img{ float:left;}
+#loop_videos ul li p{margin:2px auto; color:#9A9A9A;}
+#loop_videos ul li:hover{ background:#DADADA;}
+#loop_videos ul li a{color: #0099CC; text-decoration:none; font:13px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:0;}
+#loop_videos ul li a:hover{ text-decoration:underline;}
+
+/*Lista de reprodução da sidebar single*/
+
+#lista_reproducao{ width:330px; margin:20px auto; height:220px; float:right; overflow: auto;}
+#lista_reproducao h5{ color:#FFFFFF; font:14px Verdana, Arial, Helvetica, sans-serif; background:#666666; height:25px; width:313px;}
+#lista_reproducao ul{ list-style:none;}
+#lista_reproducao ul li{padding:4px; font:10px Verdana, Arial, Helvetica, sans-serif; width:290px;}
+#lista_reproducao ul li p{margin:2px; color: #9A9A9A;}
+#lista_reproducao ul li a{ color:#0099CC; text-decoration:none; font-weight:bold; font:10px Verdana, Arial, Helvetica, sans-serif; padding:0; margin:0;}
+#lista_reproducao ul li a:hover{ text-decoration:underline;}
+
+/*Formulario de cadastro*/
+#formulario{ margin:50px 250px 30px 250px; height:200px;}
+#formulario form{width:370px; display:block; margin:0; margin-left:8px; border:0; background: #D6D6D6;}
+#formulario fieldset{width:365px; display:block; margin:0; border:0; background: #D6D6D6;}
+#formulario p{padding:3px 0;}
+#formulario span{padding:3px; display:block; font:14px Verdana, Arial, Helvetica, sans-serif; color: #000000; font-weight:bold;}
+#formulario input{width:365px; height:25px; border:1px solid #CCCCCC; font: 14px Verdana, Arial, Helvetica, sans-serif;}
+.btn{ width:365px; border:1px solid #CCCCCC;}
+.no{ width:363px; height:22px; background: #FF9D9D; font:14px Verdana, Arial, Helvetica, sans-serif; border:#CCCCCC 1px solid;}
+.yes{ width:363px; height:22px; background: #C4FFFF; font:14px Verdana, Arial, Helvetica, sans-serif; border:#CCCCCC 1px solid;}
+#content .conta{ font:18px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; color:#CC6600; margin:5px 0 10px 0; padding:5px 0;}
+#content .informacao{ font:14px Verdana, Arial, Helvetica, sans-serif;}
+#content .busca{ width:600px; height:auto; float:left;}
+#content .busca ul{ list-style:none;}
+#content .busca ul li{ padding:7px 0 0 0;; font:10px Verdana, Arial, Helvetica, sans-serif; float:left; width:600px; margin:5px auto;}
+#content .busca ul li p{ margin:2px auto; color:#9A9A9A;}
+#content .busca ul li img{ float:left;}
+#content .busca ul li a{color: #0099CC; text-decoration:none; font:13px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; padding:0; margin:0;}
+#content .busca ul li a:hover{ text-decoration:underline;}
+#content .sidebar_busca{ width:330px; height:auto; float:right;}
+
+/*Formulario de postagem*/
+
+#form{ margin:50px 0 30px 0; height: auto; width:405px;}
+#form legend{ font:15px Verdana, Arial, Helvetica, sans-serif; color:#0099CC; font-weight:bold; padding:5px; margin:2px auto;}
+#form form{width:397px; display:block; margin:0; border:0; background: #D6D6D6;}
+#form p{padding:4px 0;}
+#form span{padding:3px; display:block; font:14px Verdana, Arial, Helvetica, sans-serif; color: #0099CC; font-weight:bold;}
+#form input{width:385px; height:25px; border:1px solid #CCCCCC; font: 14px Verdana, Arial, Helvetica, sans-serif; padding:2px;}
+#form textarea{ width:385px; margin:2px; padding:0; border:1px solid #CCCCCC;}
+
+/*Mensagens*/
+
+.botao{ width:160px; border:1px solid #999999; margin:5px 5px 2px 5px;}
+.nao{width:380px; height:22px; background: #FF9D9D; font:14px Verdana, Arial, Helvetica, sans-serif; border:#CCCCCC 1px solid;}
+.sim{width:380px; height:22px; background: #C4FFFF; font:14px Verdana, Arial, Helvetica, sans-serif; border:#CCCCCC 1px solid;}
+.vazio{ font:14px Verdana, Arial, Helvetica, sans-serif; color:#999999; font-weight:bold;}
+.acerto{font:14px Verdana, Arial, Helvetica, sans-serif; color:#999999; font-weight:bold;}
+.nulo{ font:14px Verdana, Arial, Helvetica, sans-serif; color: #666666; font-weight:bold; padding:5px 0;}
+.achou{font:14px Verdana, Arial, Helvetica, sans-serif; color: #0099CC; font-weight:bold; padding:5px 0;}
+
+
+/*Comentarios*/
+#comentarios{ height:auto;}
+#comentarios h2{ font:14px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; width:600px; margin:15px auto;}
+#comentarios ul{ list-style:none;}
+#comentarios ul li{ width:400px; font:11px Verdana, Arial, Helvetica, sans-serif; color: #999999; padding:7px 0; margin:5px 0;}
+#comentarios ul li p{ font:12px Verdana, Arial, Helvetica, sans-serif; padding:5px 0; margin:3px 0 0 0;}
+
+
+/*Footer*/
+#clear{ clear:both;}
+#footer{ width:950px; margin:0 auto; height:100px;}
+#footer_logo{ float:left; width:230px; margin:10px;}
+#footer_texto{ float:left; width:500px; margin:25px 10px; text-align:center; font-weight:bold; font:15px Verdana, Arial, Helvetica, sans-serif, Times, serif; text-shadow:#999999 1px 1px 1px;}
+
